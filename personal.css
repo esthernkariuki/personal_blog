@@ -14,7 +14,7 @@ body{
 }
 .navbar{
 display:flex;
-width: 55%;
+width: 45%;
 height: 30%;
 margin: auto;
 
@@ -27,34 +27,39 @@ ul{
     border-radius: 90px;
     height: 25%;
   position: sticky;
- background-color: #888484;
+ background-color: white;
 
 }
 li{
     margin-left: 190px;
 }
 button{
-    margin-left: 20px;
+    margin-left: 30px;
     width: 18%;
     border-radius: 90px;
-   background-color: brown;
-   color: rgb(248, 248, 252);
+   background-color: rgb(75, 73, 73);
+  color: #1877f2;
    font-size: 20px;
 }
 a:hover{
-    color: rgb(255, 8, 0);
+    color: rgb(245, 240, 240);
 }
 .fa-solid{
     margin-top: 7px;
 }
 a{
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+
+}
+button a{
     text-decoration: none;
-    color: rgb(250, 247, 247);
+    color: rgb(250, 245, 245);
 }
 }
 .navbar li,ul{
     display: flex;
-    gap: 5%;
+    gap: 8%;
     margin: 20px;
     /* margin-left: 250px; */
     font-family: 'poppins';
@@ -75,7 +80,7 @@ a{
 #highlight-p{
     font-size: 50px;
     padding: 100px;
-    color: rgb(242, 247, 242);
+    color: rgb(244, 245, 247);
   text-align: center;}
   
 #by{
@@ -145,7 +150,7 @@ margin-top: 100px;
     p{
       margin: 50px 0px 50px 200px ;
       font-family: 'poppins';
-      font-size: 22px;
+      font-size: 18px;
           
     
 
@@ -200,7 +205,7 @@ hr{
   .author-name {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #03198a;
+    color: #050505;
   }
   
   #author {
@@ -211,7 +216,7 @@ hr{
     font-size: 1.4em;
     font-weight: bold;
     margin: 20px 0 10px;
-    color: #e64c63;
+    color: #0a0a0a;
   }
   
   .summary {
@@ -254,7 +259,6 @@ hr{
 
 
   .footer-page{
-  display: flex;
   display: flex; 
   gap:250px;
   font-size: 20px;
@@ -301,40 +305,346 @@ hr{
     font-size: 25px;
   }
   @media only screen and (max-width:750px) {
-   .books-text{
-background-size:100vw 50vh;
-   }
-   #highlight-p{
-    padding: 0px;
-    font-size: 1em;
 
-   }
-   .navbar ul,li{
-  font-size: 1%;
-  gap: 0%;
-  margin: 0;
+    *{
+      box-sizing: border-box;
+      
+          }
+          body{
+            margin: 0;
+            padding: 0;
+          }
+          .navbar{
+            width:90%;
+            font-size: 10px;
+            margin: 0;
+            gap: 0;
+           
+          }
+         
+          #btn{
+            margin-left: 90px;
+            margin-top: -10px;
+          }
+          #search-button{
+            margin-left: -30px;
+            width: 40%;
+          }
+          #by{
+             margin-left: 100px;
+            margin-top: -70px;
+            font-size: 15px; 
 
-   }
-   li{
-    margin: 0;
-   }
-   ul{
+          }
+          #highlight-p{
+            font-family: 'poppins';
+            font-size: 15px;
+            margin-top: -50px;
+      
+          }
+          .more-books{
+            h1{
+              margin-left: 110px;
+              font-size: 20px;
+            }
+      
+          }
+          .images{
+            display: block;
+            width: 100%;
+             width: 50%;
+             height:30vh ;
+             gap: 100px;
+             margin: 0 auto;
+      
+           
+           }
+           #crying-image{
+             width: 95%;
+             height: 35vh;
+           }
+           #jannete-image{
+             height: 40vh;
+           }
+      
+           .faq {
+            margin-top: 600px;
+            text-align: center;
+            display: block;
+            img{
+             width: 300%;
+              margin-left: -195px;
+            }
+            h1{
+              margin-left: -250px;
+              margin-top: 40px;
+             
+        
+        
+            }
+            p{
+              margin-left:100px;
+              width: 100%;
+            }
+        
+          }
+          .faq-text{
+          
+            ul,li{
+              display: block;
+              font-size: 19px;
+              line-height: 1.5;
+              margin-top: -10px;
+            align-content: center;
+            width: 100%;
+            
+            }
+            hr{
+              width: 120%;
+            }
+          }
+         
+        .footer-page{
+          display: block;  
+           height: 140vh ;
+           margin-left: -500px;
+        
+        
+          
+          }
+          footer p{
+            margin-top: -30px;
+            color: white;
+            text-align: center;
+            font-size: 25px;
+          }
 
-   }
-   .more-books {
+
+  }
+  @media only screen  and (min-width:751px) and (max-width:999px) {
+    *{
+box-sizing: border-box;
+
+    }
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    .navbar{
+      width:100%;
+      font-size: 12px;
+     
+    }
+   
+    #btn{
+      margin-left: 350px;
+    }
+    #search-button{
+      margin-left: -30px;
+      width: 40%;
+    }
+    #by{
+      margin-left: 250px;
+      margin-top: -70px;
+    }
+    #highlight-p{
+      font-family: 'poppins';
+      font-size: 25px;
+
+    }
+    .more-books{
+      h1{
+        margin-left: 110px;
+      }
+
+    }
+    .images{
+      display: block;
+      width: 100%;
+       width: 50%;
+       height:30vh ;
+       gap: 100px;
+       margin: 0 auto;
+
+     
+     }
+     #crying-image{
+       width: 78%;
+       height: 35vh;
+     }
+     #jannete-image{
+       height: 40vh;
+     }
+
+     .faq {
+      margin-top: 1300px;
+      text-align: center;
+      display: block;
+      img{
+width: 300%;
+margin-left: -195px;
+      }
+      h1{
+        margin-left: -250px;
+        margin-top: 40px;
+       
+  
+  
+      }
+      p{
+        margin-left:100px;
+        width: 100%;
+      }
+  
+    }
+    .faq-text{
     
-    h1{font-size: 50px;
-      margin-top: 0;
-
+      ul,li{
+        display: block;
+        font-size: 19px;
+        line-height: 1.5;
+        margin-left: 40px;
+        margin-top: -10px;
+      align-content: center;
+      width: 100%;
+      
+      }
+      hr{
+        width: 120%;
+      }
+    }
+   
+  .footer-page{
+    display: block;  
+     height: 80vh ;
+     margin-left: -500px;
+  
+  
+    
+    }
+    footer p{
+      margin-top: -30px;
+      color: white;
+      text-align: center;
+      font-size: 25px;
     }
 
   }
-  .images{
-    display: block;
-    width: 20%;
-    height:10vh ;
+  @media only screen and (min-width:1000px) and (max-width:1500px) {
+   
+   *{
+    box-sizing: border-box;
+    
+   } 
+   body{
+    margin: 0;
+    padding: 0;
+   };
+   .navbar{
+      width:100%;
+      font-size: 12px;
+     
+    }
+    #btn{
+      margin-left: 400px;
+      margin-top: -100px;
   }
-  #crying-image{
-    width: 5%;
+  .books-text{
+    height: 150vh;
+    width: 110%;
   }
+    #search-button{
+      margin-left: -60px;
+      width: 40%;
+    }
+    #by{
+      margin-left: 290px;
+      margin-top: -70px;
+    }
+    #highlight-p{
+      font-family: 'poppins';
+      font-size: 25px;
+
+    }
+    .more-books{
+      h1{
+        margin-left: 110px;
+      }
+
+    }
+    .images{
+      display: block;
+      width: 100%;
+       width: 50%;
+       height:30vh ;
+       gap: 100px;
+       margin: 0 auto;
+
+     
+     }
+     #crying-image{
+       width: 30%;
+       height: 40vh;
+     }
+     #jannete-image{
+       height: 40vh;
+     }
+
+     .faq {
+      margin-top: 100px;
+      text-align: center;
+      display: block;
+      img{
+        margin-top: 50px;
+width: 230%;
+margin-left: -195px;
+      }
+      h1{
+        margin-left: -250px;
+        margin-top: 40px;
+       
+  
+  
+      }
+      p{
+        margin-left:100px;
+        width: 100%;
+      }
+  
+    }
+    .faq-text{
+    
+      ul,li{
+        display: block;
+        font-size: 19px;
+        line-height: 1.5;
+        margin-left: 40px;
+        margin-top: -10px;
+      align-content: center;
+      width: 100%;
+      
+      }
+      hr{
+        width: 120%;
+      }
+    }
+   
+  .footer-page{
+    display: block;  
+     height: 150vh ;
+     margin-left: -500px;
+     width: 150%;
+  
+  
+  
+    
+    }
+    footer p{
+      margin-top: -30px;
+      color: white;
+      text-align: center;
+      font-size: 25px;
+    }
+
   }
+  
