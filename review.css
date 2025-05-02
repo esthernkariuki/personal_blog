@@ -49,14 +49,20 @@ padding:10px 70px;
  }
  .footer{
   margin-top: -70px;
-  margin-left: 200px;
- p{ 
-  margin-left: 200px;
- }
- h2, h1{
-  margin-left: 35%;
+  margin-left: 250px;
+ 
+ 
+ button{
+  background-color: aqua;
+  height: 50px;
+  width: 20%;
+  border-radius: 90px;
+  margin-left: 100px;
+
+
  }
 }
+
 @media screen and (max-width:500px){
   .container{
     margin:0;

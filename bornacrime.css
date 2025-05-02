@@ -294,7 +294,7 @@ details>p {
 
 .profile-details {
   flex: 2 1 500px;
-  padding: 30px;
+  padding: 100px;
 }
 
 .author-name {
@@ -304,14 +304,14 @@ details>p {
 }
 
 #Author {
-  margin-top: 25vh;
+  margin-top: 23vh;
 }
 
 .book-title {
   font-size: 1.4em;
   font-weight: bold;
   margin: 20px 0 10px;
-  color: #eebbc3;
+  color: #d35568;
 }
 
 .summary {
@@ -345,7 +345,7 @@ details>p {
 }
 
 .social-links a .fa-instagram {
-  color: #e1306c;
+  color: #ce4573;
 }
 
 .social-links a .fa-linkedin {

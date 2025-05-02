@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+  overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+.navbar{
+display:flex;
+width: 55%;
+height: 30%;
+margin: auto;
+
+
+
+
+ul{
+    border:1px solid black;
+    width:100%;
+    border-radius: 90px;
+    height: 25%;
+  position: sticky;
+ background-color: #888484;
+
+}
+li{
+    margin-left: 190px;
+}
+button{
+    margin-left: 20px;
+    width: 18%;
+    border-radius: 90px;
+   background-color: brown;
+   color: rgb(248, 248, 252);
+   font-size: 20px;
+}
+a:hover{
+    color: rgb(255, 8, 0);
+}
+.fa-solid{
+    margin-top: 7px;
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 247, 247);
+}
+}
+.navbar li,ul{
+    display: flex;
+    gap: 5%;
+    margin: 20px;
+    /* margin-left: 250px; */
+    font-family: 'poppins';
+    font-size: 25px;
+    /* border:1px solid black; */
+}
+
+.books-text{ 
+    background-image:url(images/trevor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100%;
+    filter: brightness(0.4);
+
+   
+}
+#highlight-p{
+    font-size: 50px;
+    padding: 100px;
+    color: rgb(242, 247, 242);
+  text-align: center;}
+  
+#by{
+    margin-top: -50px;
+    font-size: 50px;
+    margin-left: 850px;
+    color:yellow;
+
+}
+#btn{
+    margin-left: 900px;
+    font-size: 30px;
+    background-color:blue;
+    margin-top: 50px;
+    border-radius: 90px;
+    padding: 10px;
+    color: white;
+  
+
+}
+.books{
+  button a{
+    color: white;
+    text-decoration: none;
+
+  }
+}
+#btn:hover{
+    color: rgb(238, 238, 253);
+    transition: ease-out ;
+}
+.images{
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    gap: 300px;
+    margin-left: 300px;
+    margin-top: 150px;
+   
+}
+
+#crying-image{
+    width: 14%;
+}
+.more-books h1{
+font-size: 70px;
+margin-left: 40%;
+margin-top: 100px;
+}
+
+.faq{
+    display: flex;
+    margin-top: 150px;
+    line-height: 2;
+    margin-right: 400px;
+    gap: 100px;
+    margin-left: 200px;
+    img{
+        width: 60%;
+        height: 70%;
+    }
+    h1{
+        margin-top: -60px;
+        margin-right: -450px;
+
+    }
+    p{
+      margin: 50px 0px 50px 200px ;
+      font-family: 'poppins';
+      font-size: 22px;
+          
+    
+
+    }
+}
+.faq-text{
+ul,li{
+  display: block;
+  font-size: 19px;
+  line-height: 1.5;
+  margin-left: 100px;
+  margin-top: -10px;
+
+}
+hr{
+  width: 70%;
+}
+
+}
+.profile-container {
+    max-width: 900px;
+    margin: 60px auto;
+    background-color: #ffffff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  
+  .profile-image {
+    flex: 1 1 200px;
+    background-color: #ddd;
+   
+  }
+  
+  .profile-image img {
+    width: 140%;
+    height: 100%;
+    object-fit: cover;
+  
+  }
+  
+  .profile-details {
+    flex: 2 1 300px;
+    padding-left: 100px;
+    font-size: 20px;
+  
+  }
+  
+  .author-name {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #03198a;
+  }
+  
+  #author {
+    margin-top: 20vh;
+  }
+  
+  .book-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    color: #e64c63;
+  }
+  
+  .summary {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .author-heading {
+    text-align: center;
+    font-size: 5vh;
+    margin-left: 10vh;
+  }
+  
+  .social-links a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: transform 0.2s;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.2);
+  }
+  
+  .social-links a .fa-twitter {
+    color: #1da1f2;
+  }
+  
+  .social-links a .fa-facebook {
+    color: #1877f2;
+  }
+  
+  .social-links a .fa-instagram {
+    color: #e1306c;
+  }
+  
+  .social-links a .fa-linkedin {
+    color: #0077b5;
+  }
+
+
+  .footer-page{
+  display: flex;
+  display: flex; 
+  gap:250px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+   text-align: center;
+   align-content: center;
+   padding-left: 450px;
+   height: 35vh ;
+   line-height: 2;
+   padding-bottom: 0;
+  
+  }
+  .pagelist{
+    li,ul{
+        display: block;
+        gap: 70px;
+        color: rgb(243, 241, 241);
+       
+  
+  
+
+    }
+    a,li{
+        text-decoration: none;
+        color: rgb(250, 246, 246);
+        font-size: 19px;
+    }
+   
+  }
+  .contacts{
+    a{
+        display: block;
+        line-height: 2;
+    
+
+    }
+   
+  }
+  footer p{
+    margin-top: -30px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  }
+  @media only screen and (max-width:750px) {
+   .books-text{
+background-size:100vw 50vh;
+   }
+   #highlight-p{
+    padding: 0px;
+    font-size: 1em;
+
+   }
+   .navbar ul,li{
+  font-size: 1%;
+  gap: 0%;
+  margin: 0;
+
+   }
+   li{
+    margin: 0;
+   }
+   ul{
+
+   }
+   .more-books {
+    
+    h1{font-size: 50px;
+      margin-top: 0;
+
+    }
+
+  }
+  .images{
+    display: block;
+    width: 20%;
+    height:10vh ;
+  }
+  #crying-image{
+    width: 5%;
+  }
+  }
